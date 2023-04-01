@@ -1,0 +1,19 @@
+Package: Pltscanner
+Type: Package
+Title: Pltscanner
+Version: 0.1.0
+Author: Ziru Huang
+Maintainer: Ziru Huang <ziru_huang@163.com>
+Description: Pltscanner is a machine learning-based R package designed for automated annotation of platelets/megakaryocytes
+    in scRNA-seq data. This package offers a fast and accurate prediction method that does not require clustering or
+    dimensionality reduction steps and directly predicts the cell type of individual cells. Pltscanner accepts
+    Seurat objects as input data and returns a Seurat object with platelet cell labels and prediction scores for each cell.
+License:  LGPL (>= 2.0, < 3) | Mozilla Public License
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.1.1
+Imports: 
+    xgboost,
+    Seurat
