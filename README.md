@@ -1,4 +1,4 @@
-# Ptscanner
+# Pltscanner
 
 **Updated: April 2023**
 
@@ -6,7 +6,7 @@ Pltscanner is a machine learning-based R package designed for automated annotati
 
 # Install
 ```R
-devtools::install_github('ZiruHuang/Ptscanner')
+devtools::install_github('ZiruHuang/Pltscanner')
 ```
 
 # Dependency
@@ -18,7 +18,7 @@ library(xgboost)
 # Usage
 
 ```R
-library(Ptscanner)
+library(Pltscanner)
 # Pltscanner accepts Seurat objects as input data and returns a Seurat object with platelet cell labels and prediction scores for each cell.
 data("pbmc_small")
 pbmc_small <- PltsPre(pbmc_small)
