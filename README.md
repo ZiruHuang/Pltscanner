@@ -2,7 +2,7 @@
 
 **Updated: April 2023**
 
-Pltscanner is a machine learning-based R package designed for automated annotation of platelets/megakaryocytes in scRNA-seq data. 
+Pltscanner is a machine learning-based R package designed for automated annotation of platelets in scRNA-seq data. 
 
 # Install
 ```R
